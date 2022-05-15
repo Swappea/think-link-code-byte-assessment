@@ -1,6 +1,5 @@
 <script setup>
 import { DASHBOARD_MENU } from '../data/constants';
-import { useImage } from '../data/utils';
 </script>
 
 <template>
@@ -11,7 +10,7 @@ import { useImage } from '../data/utils';
     >
       <li v-for="{ label, imgPath, router } in DASHBOARD_MENU" v-bind:key="label" class="nav-item">
         <router-link :to="router" class="d-flex nav-link align-middle px-0">
-          <img :src="useImage(imgPath)" alt="dashboard" height="24" width="24" />
+          <img :src="imgPath" alt="dashboard" height="24" width="24" />
           <span class="ms-1 d-none d-sm-inline">{{ label }}</span>
         </router-link>
       </li>

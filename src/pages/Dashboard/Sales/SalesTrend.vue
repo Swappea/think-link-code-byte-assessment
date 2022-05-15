@@ -1,3 +1,7 @@
+<script setup>
+import SalesTrendChart from './SalesTrendChart.vue';
+</script>
+
 <template>
   <div class="col-sm-10 sales-trend">
     <div class="d-flex align-items-center justify-content-between sales-trend-header">
@@ -10,6 +14,9 @@
     <div class="sales-trend-figure">
       <img src="../../../assets/upside-trend.svg" width="20" height="12" />
       <span>+21% from last week</span>
+    </div>
+    <div>
+      <SalesTrendChart />
     </div>
   </div>
 </template>

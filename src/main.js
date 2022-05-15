@@ -1,5 +1,7 @@
 import { createApp } from 'vue';
+
 import { createWebHistory, createRouter } from 'vue-router';
+import VueApexCharts from 'vue3-apexcharts';
 
 import App from './App.vue';
 import DashboardPage from './pages/Dashboard/DashboardPage.vue';
@@ -49,5 +51,6 @@ const router = createRouter({
 const app = createApp(App);
 
 app.use(router);
+app.use(VueApexCharts);
 
 app.mount('#app');

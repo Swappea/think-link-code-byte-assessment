@@ -30,7 +30,7 @@ import SalesData from './SalesData.vue';
 <style scoped>
 .sales-overview-container {
   width: 100%;
-  height: 512px;
+  height: 560px;
   padding: 15px 15px 0 15px;
 
   background: #ffffff;

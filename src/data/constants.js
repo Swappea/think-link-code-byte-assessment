@@ -6,32 +6,32 @@ export const DASHBOARD_MENU = deepFreeze([
   {
     router: '/',
     label: 'Dashboard',
-    imgPath: '/dashboard.svg',
+    imgPath: 'dashboard.svg',
   },
   {
     router: '/inventory',
     label: 'Inventory',
-    imgPath: '/catalog.svg',
+    imgPath: 'catalog.svg',
   },
   {
     router: '/orders',
     label: 'Orders',
-    imgPath: '/orders.svg',
+    imgPath: 'orders.svg',
   },
   {
     router: '/customers',
     label: 'Customers',
-    imgPath: '/customers.svg',
+    imgPath: 'customers.svg',
   },
   {
     router: '/reports',
     label: 'Reports',
-    imgPath: '/reports.svg',
+    imgPath: 'reports.svg',
   },
   {
     router: '/settings',
     label: 'Settings',
-    imgPath: '/settings.svg',
+    imgPath: 'settings.svg',
   },
 ]);
 

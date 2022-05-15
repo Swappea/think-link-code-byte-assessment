@@ -2,6 +2,7 @@
 import OverviewHeader from './OverviewHeader.vue';
 import OrdersOverview from './OrdersOverview.vue';
 import SalesDetail from './Sales/SalesDetail.vue';
+import InventoryDetails from './Inventory/InventoryDetails.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import SalesDetail from './Sales/SalesDetail.vue';
     <OverviewHeader />
     <OrdersOverview />
     <SalesDetail />
+    <InventoryDetails />
   </div>
 </template>
 

@@ -1,35 +1,18 @@
-# think-link-code-byte-assessment
+# Summary
 
-This template should help get you started developing with Vue 3 in Vite.
+* Which framework I went with? VueJS... I have professional experience in React and Angular and not in VueJS. I had done small POC's couple of years ago on Vue but I don't remember much of it now.
+* So despite this, why I went with VueJS over my comfort zone of Angular and ReactJS? Well, the answer lies here only.. Comfort zone.. I wanted to challenge myself to go throught the Vue doc's and try to create this assignment. That's one of the reason I am looking for job switch, to challenge myself, grow myself, upscale my skills.
+* Hence the reason I went with VueJS 3 with vue-router, bootstrap 5, apex charts.
+* There are lot' of things to improve in codebase, but I tried my best to do much as possible within the time constraint and manage my personal/professional life. But yes there are things that could be improved, but despite that I think I did well :)
 
-## Recommended IDE Setup
+## Deployed link
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+* Netlify
 
-## Customize configuration
+## Commands
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+| Command    | Command                   |
+| ---------- | ------------------------- |
+| yarn start | start the dev server      |
+| yarn build | build the production code |
+| yarn lint  | apply linting             |

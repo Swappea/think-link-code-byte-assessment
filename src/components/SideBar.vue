@@ -4,7 +4,7 @@ import { useImage } from '../data/utils';
 </script>
 
 <template>
-  <div class="d-flex flex-column align-items-center align-items-sm-start side-bar-container min-vh-100">
+  <div class="d-flex flex-column align-items-center align-items-sm-start side-bar-container h-100">
     <ul
       class="nav nav-pills w-100 flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start side-bar-menu"
       id="menu"

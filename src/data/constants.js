@@ -65,3 +65,13 @@ export const ORDER_TYPES = deepFreeze([
     color: '#FF1C1C',
   },
 ]);
+
+export const TABLE_DATA_COLUMNS = Object.freeze({
+  product: 'PRODUCT',
+  rating: 'RATING',
+  vintage: 'VINTAGE',
+  quantity: 'QTY',
+  volume: 'VOLUME',
+  cost: 'COST',
+  price: 'PRICE',
+});

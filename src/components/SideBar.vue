@@ -13,6 +13,8 @@ import { DASHBOARD_MENU } from '../data/constants';
           <img :src="imgPath" alt="dashboard" height="24" width="24" />
           <span class="ms-1 d-none d-sm-inline">{{ label }}</span>
         </router-link>
+
+        <img :src="imgPath" alt="dashboard" height="24" width="24" />
       </li>
     </ul>
     <hr />
